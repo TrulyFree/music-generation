@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MusicGeneration</groupId>
+	<artifactId>MusicGeneration</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>io.github.trulyfree:MusicGeneration</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<scm>
+		<connection>scm:git:https://github.com/TrulyFree/MusicGeneration.git</connection>
+		<developerConnection>scm:git:https://github.com/TrulyFree/MusicGeneration.git</developerConnection>
+		<url>https://github.com/TrulyFree/MusicGeneration</url>
+	</scm>
+	<licenses>
+		<license>
+			<name>GPL-3.0</name>
+			<url>https://www.gnu.org/licenses/gpl.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>VTCAKAVSMoACE</name>
+			<email>vtcakavsmoace@gmail.com</email>
+			<organization>TrulyFree</organization>
+			<organizationUrl>https://github.com/TrulyFree</organizationUrl>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+			<timezone>0</timezone>
+		</developer>
+	</developers>
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.16</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
